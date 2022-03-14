@@ -10,4 +10,4 @@ RUN wget --no-check-certificate https://github.com/tsl0922/ttyd/releases/downloa
     && chmod +x ttyd.x86_64 && mv ttyd.x86_64 /usr/bin/ttyd
 #EXPOSE ${TLS_PORT} $PORT
 
-CMD /usr/bin/ttyd -p $PORT -c admin:adminks123 bash
+CMD /usr/bin/ttyd -p $PORT -c admin:admin1234
