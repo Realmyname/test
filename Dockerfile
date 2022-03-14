@@ -1,5 +1,5 @@
 FROM archlinux:latest
-RUN pacman -Syu
+RUN pacman -Syu --noconfirm 
 #ENV TLS_PORT=4433 PORT=8080
 
 RUN pacman -Sy --noconfirm wget
