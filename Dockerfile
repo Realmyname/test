@@ -1,4 +1,4 @@
-FROM FROM alpine:3.15
+FROM alpine:3.15
 RUN apk add --no-cache wget
 RUN apk add --no-cache htop
 
